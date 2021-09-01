@@ -332,6 +332,7 @@ summary {
   top: -1px;
   position: -webkit-sticky;
   position: sticky;
+  z-index: 3;
   min-width: 1200px;
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
