@@ -30,7 +30,7 @@
 .hero__idea {
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: Roboto;
+  font-family: $font;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -48,7 +48,7 @@
   margin: auto;
   justify-content: center;
   align-items: center;
-  font-family: Roboto;
+  font-family: $font;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

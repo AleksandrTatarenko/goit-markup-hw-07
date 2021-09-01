@@ -27,7 +27,7 @@
   margin-right: 93px;
 }
 .header__logo--first {
-  font-family: Raleway;
+  font-family: $font-l;
   font-weight: normal;
   font-size: 26px;
   line-height: 1.19;
@@ -40,6 +40,7 @@
 .now {
   position: relative;
   color: $text-focus;
+  @include transition(color);
   &::after {
     content: '';
     position: absolute;
@@ -63,7 +64,7 @@
 }
 .link {
   position: relative;
-  font-family: Roboto;
+  font-family: $font;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -104,7 +105,7 @@
   justify-content: center;
   align-items: center;
   margin-left: 30px;
-  font-family: Roboto;
+  font-family: $font;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

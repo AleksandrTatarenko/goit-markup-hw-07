@@ -385,6 +385,8 @@ summary {
 .now {
   position: relative;
   color: #2196f3;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .now::after {
@@ -982,12 +984,12 @@ summary {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   min-width: 1200px;
-  padding-bottom: 94px;
 }
 
 .activity__container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding-bottom: 94px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -1016,9 +1018,6 @@ summary {
 }
 
 .activity__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-margin-before: 0px;
           margin-block-start: 0px;
   -webkit-margin-after: 0px;
@@ -1032,14 +1031,45 @@ summary {
 }
 
 .activity__list--item {
-  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  margin-top: 50px;
+  width: 370px;
 }
 
 .activity__list--item:not(:last-child) {
   margin-right: 30px;
+}
+
+.activity__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 224px;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.activity__h {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Наша команда*/
@@ -1655,7 +1685,6 @@ summary {
           box-shadow: 0 0 0 2px #212121;
 }
 
-/*PORTFOLIO*/
 /*Menu*/
 .menu {
   -webkit-box-sizing: border-box;
