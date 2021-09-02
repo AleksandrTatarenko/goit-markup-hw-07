@@ -329,10 +329,10 @@ summary {
 
 /*HEADER*/
 .header {
-  top: -1px;
   position: -webkit-sticky;
   position: sticky;
-  z-index: 3;
+  z-index: 2;
+  top: -1px;
   min-width: 1200px;
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
@@ -1406,6 +1406,7 @@ summary {
 
 /*Модальное окно*/
 .backdrop-request {
+  z-index: 3;
   position: fixed;
   top: 0;
   left: 0;

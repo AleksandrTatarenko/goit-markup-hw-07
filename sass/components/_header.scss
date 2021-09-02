@@ -1,8 +1,8 @@
 /*HEADER*/
 .header {
-  top: -1px;
   position: sticky;
-  z-index: 3;
+  z-index: 2;
+  top: -1px;
   min-width: 1200px;
   border-bottom: 1px solid #ececec;
   background-color: $text-hero;
