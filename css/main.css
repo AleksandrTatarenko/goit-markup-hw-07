@@ -531,13 +531,34 @@ summary {
           justify-content: space-between;
 }
 
+.footer__logo--first {
+  display: block;
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
 .footer__logo {
   color: #ffffff;
 }
 
+.footer__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .location {
-  -webkit-margin-before: 20px;
-          margin-block-start: 20px;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
   -webkit-margin-after: 0px;
           margin-block-end: 0px;
   -webkit-margin-start: 0px;
@@ -552,6 +573,14 @@ summary {
   color: #ffffff;
 }
 
+.location:hover {
+  color: #2196f3;
+}
+
+.location:focus {
+  color: #2196f3;
+}
+
 .contacts {
   display: block;
   margin-top: 9px;
@@ -561,6 +590,14 @@ summary {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts:hover {
+  color: #2196f3;
+}
+
+.contacts:focus {
+  color: #2196f3;
 }
 
 .footer__comein {
@@ -756,6 +793,7 @@ summary {
 }
 
 .footer__button {
+  cursor: pointer;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1645,6 +1683,7 @@ summary {
 }
 
 .window__button {
+  cursor: pointer;
   display: block;
   width: 200px;
   height: 50px;
@@ -1675,6 +1714,7 @@ summary {
 }
 
 .window__span {
+  cursor: pointer;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
@@ -1695,6 +1735,7 @@ summary {
 }
 
 .menu__button {
+  cursor: pointer;
   outline: 0px;
   padding-left: 22px;
   padding-right: 22px;
@@ -1739,7 +1780,7 @@ summary {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 .menu__list {
@@ -1749,6 +1790,7 @@ summary {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 50px;
 }
 
 .menu__list--item:not(:last-child) {
@@ -1756,28 +1798,6 @@ summary {
 }
 
 /*Products*/
-.product__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
-}
-
 .product__list {
   display: -webkit-box;
   display: -ms-flexbox;
