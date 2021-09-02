@@ -41,6 +41,7 @@
   color: $text-hero;
 }
 .hero__button {
+  cursor: pointer;
   display: flex;
   box-sizing: border-box;
   width: 200px;

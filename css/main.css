@@ -877,6 +877,7 @@ summary {
 }
 
 .hero__button {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
